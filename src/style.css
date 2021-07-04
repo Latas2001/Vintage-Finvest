@@ -2,9 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-blue-950{
+.bg-brandcolor{
     background-color: rgb(9,49,74); 
   }
+.text-blue-950 {
+    --tw-text-opacity: 1;
+    color: rgba(9,49,74,var(--tw-text-opacity));
+}
   .change-my-color {
     fill: rgb(25, 83, 207);
   }
+  
+  .counter-value:after {
+    content: "+";
+}
+.text-icon{
+color : #173b52;
+}
+
+
+html, body {
+  width: 100%;
+  margin: 0; 
+  padding: 0; 
+  overflow-x: hidden;
+}
+/* Carousel Container*/
+.swiper-container {
+  width: 100%!important;
+  height:50%;
+  margin: 0%!important;
+}
+
+.flickity-viewport {
+  height: 500px !important;
+}

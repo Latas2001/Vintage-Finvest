@@ -2371,7 +2371,7 @@ video {
 
 .bg-blue-900 {
   --tw-bg-opacity: 1;
-  background-color: rgba(30, 58, 138, var(--tw-bg-opacity));
+  background-color: rgba(9, 49, 74, var(--tw-bg-opacity));
 }
 
 .bg-indigo-50 {
@@ -24444,7 +24444,7 @@ video {
 
 .text-blue-900 {
   --tw-text-opacity: 1;
-  color: rgba(30, 58, 138, var(--tw-text-opacity));
+  color: rgba(9, 49, 74, var(--tw-text-opacity));
 }
 
 .text-indigo-50 {
@@ -29842,7 +29842,7 @@ video {
 }
 
 .hover\:translate-y-1\.5:hover {
-  --tw-translate-y: 0.375rem;
+  --tw-translate-y: 0.375rem
 }
 
 .hover\:translate-y-2\.5:hover {
