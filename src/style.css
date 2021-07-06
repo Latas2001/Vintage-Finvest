@@ -9,11 +9,11 @@
     --tw-text-opacity: 1;
     color: rgba(9,49,74,var(--tw-text-opacity));
 }
-  .change-my-color {
+.change-my-color {
     fill: rgb(25, 83, 207);
   }
   
-  .counter-value:after {
+.counter-value:after {
     content: "+";
 }
 .text-icon{
@@ -37,3 +37,4 @@ html, body {
 .flickity-viewport {
   height: 500px !important;
 }
+
