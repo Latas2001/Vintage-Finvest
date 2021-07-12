@@ -531,222 +531,49 @@
   </div>
 </div>
 
-
-<!--Blog Section-->
-<div class="container px-5 py-24 mx-auto">
-<div class="flex flex-col text-center w-full mb-5">
-  <h1 class="sm:text-5xl text-3xl font-bold title-font mb-4 text-gray-800">The Vintage Finvest Blog</h1>
-  <p class="lg:w-2/3 mx-auto leading-relaxed text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<section class="text-gray-600 body-font">
-  <div class="container px-5 py-10 mx-auto">
-    <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="sm:w-96 sm:h-52 h-40 w-72 sm:mr-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog1.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">Wealth Management</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">The Many Benefits of Building a Family Brand</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <a href="#"><button class="inline-flex  mt-5 text-md text-white bg-indigo-500 border-0 py-2 px-7 focus:outline-none hover:bg-indigo-600 rounded ">Read More</button></a>
-      </div>
+<!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/typography'),
+    ]
+  }
+  ```
+-->
+<div class="relative bg-white">
+  <div class="lg:absolute lg:inset-0">
+    <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
+      <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80" alt="">
     </div>
-    <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-red-500 tracking-widest font-medium title-font mb-1">Treasury Management</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">Four reasons to cheer the market fall</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-red-500 border-0 py-2 px-7 focus:outline-none hover:bg-red-600 rounded ">Read More</button>
+  </div>
+  <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
+    <div class="lg:col-start-2 lg:pl-8">
+      <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
+        <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
+        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Process</h3>
+        <p class="mt-8 text-lg text-gray-500">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
+        <div class="mt-5 prose prose-indigo text-gray-500">
+          <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
+          <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
+          <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
+          <ul>
+            <li>Quis elit egestas venenatis mattis dignissim.</li>
+            <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
+            <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+          </ul>
+          <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
+          <h3>How we’re different</h3>
+          <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
+          <p>Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus, eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.</p>
+        </div>
       </div>
-      <div class="sm:w-96 sm:order-none order-first sm:h-56 h-40 w-72 sm:ml-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog2.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-    </div>
-    <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="sm:w-96 sm:h-56 h-40 w-72 sm:mr-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog3.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-green-700 tracking-widest font-medium title-font mb-1">Investment Planning</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">Why you should invest in small cap funds and not stocks?</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-green-700 border-0 py-2 px-7 focus:outline-none hover:bg-green-800 rounded ">Read More</button>
-      </div>
-    </div>
-    <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-yellow-500 tracking-widest font-medium title-font mb-1">Economy</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">Tax planning and SIPs</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-yellow-500 border-0 py-2 px-7 focus:outline-none hover:bg-yellow-600 rounded ">Read More</button>
-      </div>
-      <div class="sm:w-96 sm:order-none order-first sm:h-56 h-40 w-72 sm:ml-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog4.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-    </div>
-  <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="sm:w-96 sm:h-52 h-40 w-72 sm:mr-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog5.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-blue-500 tracking-widest font-medium title-font mb-1">Treasury Management</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">Estate Tax Considerations for 2021</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-blue-500 border-0 py-2 px-7 focus:outline-none hover:bg-blue-600 rounded ">Read More</button>
-      </div>
-    </div>
-    <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-red-700 tracking-widest font-medium title-font mb-1">Mutual Funds</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">Mutual funds help speed up wealth creation</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-red-700 border-0 py-2 px-7 focus:outline-none hover:bg-red-800 rounded ">Read More</button>
-      </div>
-      <div class="sm:w-96 sm:order-none order-first sm:h-56 h-40 w-72 sm:ml-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog6.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-    </div>
-    <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="sm:w-96 sm:h-56 h-40 w-72 sm:mr-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog7.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-gray-500 tracking-widest font-medium title-font mb-1">Investment Planning</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">Choosing an Executor for Your Estate</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-gray-500 border-0 py-2 px-7 focus:outline-none hover:bg-gray-600 rounded ">Read More</button>
-      </div>
-    </div>
-    <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-indigo-700 tracking-widest font-medium title-font mb-1">ECONOMY</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">Cryptic Investing: Bitcoin and the Average Investor</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-indigo-700 border-0 py-2 px-7 focus:outline-none hover:bg-indigo-800 rounded ">Read More</button>
-      </div>
-      <div class="sm:w-96 sm:order-none order-first sm:h-56 h-40 w-72 sm:ml-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog8.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-    </div>
-  <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="sm:w-96 sm:h-52 h-40 w-72 sm:mr-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog9.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-green-700 tracking-widest font-medium title-font mb-1">Mutual Funds</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">Why closed-end funds are not such a sweet deal</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-green-700 border-0 py-2 px-7 focus:outline-none hover:bg-green-800 rounded ">Read More</button>
-      </div>
-    </div>
-    <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-      <h2 class="text-xs text-red-500 tracking-widest font-medium title-font mb-1">Wealth Management</h2>
-        <h2 class="text-gray-900 text-xl title-font font-semibold mb-2">How to create financial goals</h2>
-        <p class="leading-relaxed text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
-        <h2 class="text-xs text-gray-800 tracking-widest font-medium title-font mt-8">by <b>Lorem Ipsum</b>, 08/07/2021</h2>
-        <button class="inline-flex  mt-5 text-md text-white bg-red-500 border-0 py-2 px-7 focus:outline-none hover:bg-red-600 rounded ">Read More</button>
-      </div>
-      <div class="sm:w-96 sm:order-none order-first sm:h-56 h-40 w-72 sm:ml-10 inline-flex items-center justify-center rounded-lg bg-indigo-100 text-indigo-500 flex-shrink-0">
-      <img src="img/blog10.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="object-cover sm:w-full sm:h-64 h-40 w-72 rounded" alt="" />
-      </div>
-    </div>
-</section>
-</div>
-
-
-<!--Pagination Section-->
-<div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
-  <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
-    <div>
-      <p class="text-sm text-gray-700">
-        Showing
-        <span class="font-medium">1</span>
-        to
-        <span class="font-medium">10</span>
-        of
-        <span class="font-medium">50</span>
-        results
-      </p>
-    </div>
-    <div>
-      <nav class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
-        <a href="#" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
-          <span class="sr-only">Previous</span>
-          <!-- Heroicon name: solid/chevron-left -->
-          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
-          </svg>
-        </a>
-        <!-- Current: "z-10 bg-indigo-50 border-indigo-500 text-indigo-600", Default: "bg-white border-gray-300 text-gray-500 hover:bg-gray-50" -->
-        <a href="#" aria-current="page" class="z-10 bg-indigo-50 border-indigo-500 text-indigo-600 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
-          1
-        </a>
-        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
-          2
-        </a>
-        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center px-4 py-2 border text-sm font-medium">
-          3
-        </a>
-        <span class="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700">
-          ...
-        </span>
-        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center px-4 py-2 border text-sm font-medium">
-          8
-        </a>
-        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
-          9
-        </a>
-        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
-          10
-        </a>
-        <a href="#" class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
-          <span class="sr-only">Next</span>
-          <!-- Heroicon name: solid/chevron-right -->
-          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-          </svg>
-        </a>
-      </nav>
     </div>
   </div>
 </div>
