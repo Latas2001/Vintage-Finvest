@@ -531,11 +531,11 @@
   </div>
 </div>
 
- <!--Breadcrumb -->
-<nav class="flex" aria-label="Breadcrumb">
-  <ol class="flex items-center space-x-4 mt-4">
-    <li>
-      <div>
+<!-- Breadcrumb-->
+<nav class="bg-white border-b border-gray-200 flex" aria-label="Breadcrumb">
+  <ol class="max-w-screen-xl w-full mx-auto px-4 flex space-x-4 sm:px-6 lg:px-8">
+    <li class="flex">
+      <div class="flex items-center">
         <a href="/" class="text-gray-400 hover:text-gray-500">
           <!-- Heroicon name: solid/home -->
           <svg class="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -546,23 +546,30 @@
       </div>
     </li>
 
-    <li>
+    <li class="flex">
       <div class="flex items-center">
-        <!-- Heroicon name: solid/chevron-right -->
-        <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+        <svg class="flex-shrink-0 w-6 h-full text-gray-200" viewBox="0 0 24 44" preserveAspectRatio="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
         </svg>
-        <a href="blogs.html" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Blogs</a>
+        <a href="index.html" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Blogs Section</a>
       </div>
     </li>
 
-     <li>
+    <li class="flex">
       <div class="flex items-center">
-        <!-- Heroicon name: solid/chevron-right -->
-        <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+        <svg class="flex-shrink-0 w-6 h-full text-gray-200" viewBox="0 0 24 44" preserveAspectRatio="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
         </svg>
-        <a href="blogpost.html" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Blog Post</a>
+        <a href="blogs.html" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Blog Posts</a>
+      </div>
+    </li>
+
+    <li class="flex">
+      <div class="flex items-center">
+        <svg class="flex-shrink-0 w-6 h-full text-gray-200" viewBox="0 0 24 44" preserveAspectRatio="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
+        </svg>
+        <a href="blogpost.html" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">The Many Benefits of Building a Family Brand</a>
       </div>
     </li>
   </ol>
@@ -583,18 +590,18 @@
   }
   ```
 -->
-<div class="py-16 bg-white overflow-hidden">
+<div class="py-16 bg-white overflow-hidden blog-post">
   <div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
     <div class="text-base max-w-prose mx-auto lg:max-w-none">
       <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Wealth Management</h2>
       <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">The Many Benefits of Building a Family Brand</p>
     </div>
     <div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
-      <p class="text-lg text-gray-500 text-justify">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.</p>
+      <p class="text-xl text-gray-600 text-justify">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.</p>
     </div>
     <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
       <div class="relative z-10">
-        <div class="prose prose-indigo text-justify text-gray-500 mx-auto lg:max-w-none">
+        <div class="prose prose-indigo text-lg text-justify text-gray-500 mx-auto lg:max-w-none">
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            Dolor sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec. Viverra vitae congue eu consequat. 
@@ -604,14 +611,7 @@
             Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. 
             Auctor urna nunc id cursus metus aliquam eleifend mi. Facilisis leo vel fringilla est ullamcorper.
           </p>
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-            <li>Dolor sit amet consectetur adipiscing elit duis. Donec</li>
-            <li>Platea dictumst vestibulum rhoncus est pellentesque elit</li>
-          </ul>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-          <h3>We’re here to help</h3>
+          <h3 class="font-semibold text-gray-600 text-xl mb-2">We’re here to help</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            Dolor sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec. Viverra vitae congue eu consequat. 
            At tempor commodo ullamcorper a. Tincidunt eget nullam non nisi est sit amet facilisis magna. 
@@ -622,6 +622,27 @@
               Neque ornare aenean euismod elementum nisi quis eleifend. Semper quis lectus nulla at volutpat diam ut venenatis.
             Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
            </p>
+           <div class="container mx-auto flex flex-col px-2 py-10 justify-center items-center">
+            <img src="img/blogpost.jpg"lt="Workcation" class="h-96 w-82 ">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Dolor sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec. Viverra vitae congue eu consequat. 
+           At tempor commodo ullamcorper a. Tincidunt eget nullam non nisi est sit amet facilisis magna. 
+           Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.
+           Sociis natoque penatibus et magnis dis parturient montes. Pellentesque sit amet porttitor eget dolor morbi non arcu.
+            Tellus cras adipiscing enim eu turpis egestas pretium. Nullam eget felis eget nunc.
+             In pellentesque massa placerat duis ultricies lacus sed. Bibendum neque egestas congue quisque egestas diam in arcu cursus.
+              Neque ornare aenean euismod elementum nisi quis eleifend. Semper quis lectus nulla at volutpat diam ut venenatis.
+            Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
+            Dolor sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec. Viverra vitae congue eu consequat. 
+           At tempor commodo ullamcorper a. Tincidunt eget nullam non nisi est sit amet facilisis magna. 
+           Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.
+           Sociis natoque penatibus et magnis dis parturient montes. Pellentesque sit amet porttitor eget dolor morbi non arcu.
+            Tellus cras adipiscing enim eu turpis egestas pretium. Nullam eget felis eget nunc.
+             In pellentesque massa placerat duis ultricies lacus sed. Bibendum neque egestas congue quisque egestas diam in arcu cursus.
+              Neque ornare aenean euismod elementum nisi quis eleifend. Semper quis lectus nulla at volutpat diam ut venenatis.
+            Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
+           </p>          
         </div>
       </div>
       <div class="mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">
@@ -653,6 +674,53 @@
             </span>
           </cite>
         </blockquote>
+        <div class="relative z-10">
+        <div class="prose prose-indigo text-lg text-justify text-gray-500 mx-auto mt-10 lg:max-w-none">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Dolor sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec. Viverra vitae congue eu consequat. 
+           At tempor commodo ullamcorper a. Tincidunt eget nullam non nisi est sit amet facilisis magna. 
+           Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.
+            Vestibulum lectus mauris ultrices eros in cursus turpis massa. 
+            Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. 
+            Auctor urna nunc id cursus metus aliquam eleifend mi. Facilisis leo vel fringilla est ullamcorper.
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Dolor sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec. Viverra vitae congue eu consequat. 
+           At tempor commodo ullamcorper a. Tincidunt eget nullam non nisi est sit amet facilisis magna. 
+           Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.
+           Sociis natoque penatibus et magnis dis parturient montes. Pellentesque sit amet porttitor eget dolor morbi non arcu.
+            Tellus cras adipiscing enim eu turpis egestas pretium. Nullam eget felis eget nunc.
+             In pellentesque massa placerat duis ultricies lacus sed. Bibendum neque egestas congue quisque egestas diam in arcu cursus.
+              Neque ornare aenean euismod elementum nisi quis eleifend. Semper quis lectus nulla at volutpat diam ut venenatis.
+            Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
+           </p>
+        </div>
+        <section class="text-gray-600 body-font">
+  <div class="container px-5 py-10 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-full w-full">
+        <div class="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+        </div>
+      </div>
+      </section>
+      <div class="prose prose-indigo text-lg text-justify text-gray-500 mx-auto mt-10 lg:max-w-none">
+      <p>
+      Dolor sit amet consectetur adipiscing elit duis. Donec adipiscing tristique risus nec. Viverra vitae congue eu consequat. 
+           At tempor commodo ullamcorper a. Tincidunt eget nullam non nisi est sit amet facilisis magna. 
+           Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.
+           Sociis natoque penatibus et magnis dis parturient montes. Pellentesque sit amet porttitor eget dolor morbi non arcu.
+            Tellus cras adipiscing enim eu turpis egestas pretium. Nullam eget felis eget nunc.
+             In pellentesque massa placerat duis ultricies lacus sed. Bibendum neque egestas congue quisque egestas diam in arcu cursus.
+              Neque ornare aenean euismod elementum nisi quis eleifend. Semper quis lectus nulla at volutpat diam ut venenatis.
+            Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
+      </p>
+      </div>
+      </div>
       </div>
     </div>
   </div>

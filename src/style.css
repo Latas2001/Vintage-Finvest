@@ -36,3 +36,8 @@ html, body {
 .flickity-viewport {
   height: 500px !important;
 }
+
+.blog-post p{
+ margin-bottom:1em;
+ line-height:2em
+}
