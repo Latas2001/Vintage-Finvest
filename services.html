@@ -513,11 +513,11 @@
     </div>
   </div>
 </div>
-<!-- Breadcrumb-->
+  <!--Breadcrumb -->
 <nav class="bg-white border-b border-gray-200 flex" aria-label="Breadcrumb">
-  <ol class="max-w-screen-xl w-full mx-auto px-4 flex space-x-4 sm:px-6 lg:px-8">
-    <li class="flex">
-      <div class="flex items-center">
+  <ol class=" z-10 max-w-screen-xl w-full mx-auto px-4 flex space-x-4 sm:px-6 lg:px-8">
+    <li class="flex z-10">
+      <div class=" flex items-center">
         <a href="/" class="text-gray-400 hover:text-gray-500">
           <!-- Heroicon name: solid/home -->
           <svg class="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -528,74 +528,82 @@
       </div>
     </li>
 
-    <li class="flex">
+    <li class=" z-10 flex">
       <div class="flex items-center">
         <svg class="flex-shrink-0 w-6 h-full text-gray-200" viewBox="0 0 24 44" preserveAspectRatio="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
         </svg>
-        <a href="index.html" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Team Section</a>
-      </div>
-    </li>
-
-    <li class="flex">
-      <div class="flex items-center">
-        <svg class="flex-shrink-0 w-6 h-full text-gray-200" viewBox="0 0 24 44" preserveAspectRatio="none" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
-        </svg>
-        <a href="vineet_bhasin.html" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Vineet Bhasin</a>
+        <a href="services.html" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Services Section</a>
       </div>
     </li>
   </ol>
 </nav>
-<!--Profile Section-->
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white py-16 sm:py-24">
-  <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
-    <div class="relative sm:py-16 lg:py-0">
-      <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-        <div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
-        <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
-          <defs>
-            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-            </pattern>
-          </defs>
-          <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
-        </svg>
+<div class="mx-auto container px-6 py-12">
+      <div class="flex flex-col justify-center items-center w-full">
+          <h1 class="f-f-d-s text-2xl lg:text-5xl font-bold mt-5 -mb-16 text-gray-800 text-center">Services</h1>
       </div>
-      <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
-        <!-- Testimonial card-->
-        <div class="relative pt-64 pb-52 rounded-2xl shadow-xl overflow-hidden">
-          <img class="absolute inset-0 h-full w-full object-cover" src="img/vineet_bhasin.jpeg" alt="">
-        </div>
+      <div class="lg:flex items-center justify-center mt-4 lg:mt-32">
+          <div class="lg:w-1/2 h-1/3">
+              <img src="img/img1.jpeg" class="w-full h-full" alt="An elegant bathroom with a bathtub,basin and other fancy items" role="img" />
+          </div>
+          <div class="mt-4 lg:mt-0 py-12 px-8 lg:px-12 bg-gray-700 lg:w-2/5 lg:-ml-12 text-white f-f-l">
+              <h2 class="lg:text-3xl text-2xl font-normal leading-9 pb-6 f-f-d-s">Portfolio Analysis &amp; Investment Planning</h2>
+              <div class="pb-6 leading-6 f-f-l text-base lg:text-xl leading-9">We deal in Mutual Funds, PMS, Bonds, Private Equity/AIF, Real Estate using strategies that are appropriate to the client’s needs and consistent with their investment objectives, risk tolerance, and time horizon among other considerations.</div>
+              <a href="service1.html"><button class="border-b p-1 border-white lg:text-2xl text-base leading-6 f-f-l font-bold focus:border-b-0 focus:outline-none focus:ring-2 focus:ring-gray-400">Read More</button></a>
+          </div>
       </div>
-    </div>
-
-    <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
-      <!-- Content area -->
-      <div class="pt-12 sm:pt-16 lg:pt-20">
-        <h2 class="text-3xl text-gray-800 font-extrabold tracking-tight sm:text-4xl">
-          Vineet Bhasin
-        </h2>
-        <div class="mt-6 text-gray-500 space-y-2 border-b pb-4 mb-1 border-gray-300">
-          <p class="text-justify leading-7">
-           Vineet is a seasoned professional with over twenty-five years of experience in banking and financial services. He started his career with ANZ Grindlays Bank (later Standard Chartered Bank) in 1992. He then went on to join ICICI Prudential Asset Management Company, where he discovered his passion for capital markets and Mutual Fund distribution. In his last assignment, he was heading the Investment Services for North with RBL bank, where he had set up the vertical from scratch. His previous experience with RBS as Investment Services Head helped him succeed and excel in this role.</p>          
-          <p class="text-justify leading-7">
-           In a career spanning over twenty-five years, Vineet has been instrumental in advising high net-worth, ultra high net-worth individuals as well as clients in designing their investment portfolio. As Head of Investment Services, Vineet was responsible for creating awareness and training his team on various investment products. He and his team were responsible for managing the investment portfolio of clients from around 50 branches of the Bank. Vineet is passionate about keeping his clients' interest above everything else. As a business leader, he nurtured many young bankers and is cited by his colleagues as someone who leads from the front. Vineet is a graduate of the University of Delhi. He has done his MBA in Marketing from Amity University.</p>
-          <p class="text-justify leading-7">
-           Outside of work, Vineet likes to cook, travel, and play with his dog. He is a fitness aficionado and hits the gym daily before starting work. Wife Manisha and kids Arushi, Ashutosh, and Simba complete his family.</p>
-        </div>
-        <div class="flex items-center space-x-8 space-y-6">
-          <a href="https://in.linkedin.com/in/vineet-bhasin-2ab159160" target="_blank"><i class="mt-6 text-gray-500 fab fa-linkedin text-2xl hover:text-blue-500"></i></a>
-          <a href="#" target="_blank"><i class="text-gray-500 fab fa-twitter text-2xl hover:text-blue-500"></i></a>
-          <a href="#" target="_blank"><i class="text-gray-500 fab fa-youtube text-2xl hover:text-red-500"></i></a>
-          <a href="#" target="_blank"><i class="text-gray-500 fas fa-envelope text-2xl hover:text-red-500"></i></a>
-          <a href="#" target="_blank"><i class="text-gray-500 fas fa-phone text-2xl hover:text-black"></i></a>
-        </div>
+      <div class="lg:flex items-center justify-center mt-4 lg:mt-32">
+          <div class="lg:w-1/2 h-1/3">
+              <img src="img/img2.jpeg" class="w-full h-full" alt="An elegant bathroom with a bathtub,basin and other fancy items" role="img" />
+          </div>
+          <div class="mt-4 lg:mt-0 py-12 px-8 lg:px-12 bg-gray-700 lg:w-2/5 lg:-ml-12 text-white f-f-l">
+              <h2 class="lg:text-3xl text-2xl font-normal leading-9 pb-6 f-f-d-s">Personal Tax &amp; Investment Planning</h2>
+              <div class="pb-6 leading-6 f-f-l text-base lg:text-xl leading-9">Analysis of financial situation and efficient planning for taxes, loan repayments, retirement, education of children and a host of other solutions.</div>
+              <a href="service2.html"><button class="border-b p-1 border-white lg:text-2xl text-base leading-6 f-f-l font-bold focus:border-b-0 focus:outline-none focus:ring-2 focus:ring-gray-400">Read More</button></a>
+          </div>
       </div>
-    </div>
-  </div>
+      <div class="lg:flex items-center justify-center mt-4 lg:mt-32">
+          <div class="lg:w-1/2 h-1/3">
+              <img src="img/img3.jpeg" class="w-full h-full" alt="An elegant bathroom with a bathtub,basin and other fancy items" role="img" />
+          </div>
+          <div class="mt-4 lg:mt-0 py-12 px-8 lg:px-12 bg-gray-700 lg:w-2/5 lg:-ml-12 text-white f-f-l">
+              <h2 class="lg:text-3xl text-2xl font-normal leading-9 pb-6 f-f-d-s">Estate Planning</h2>
+              <div class="pb-6 leading-6 f-f-l text-base lg:text-xl leading-9">Cater to client's needs for estate and succession planning through the creation of wills/trusts. Guide clients on what would be the most hassle free and costefficient way to bequest their assets to their heirs. Formulate family and business constitutions / charters for smooth running of the business.</div>
+              <a href="service3.html"><button class="border-b p-1 border-white lg:text-2xl text-base leading-6 f-f-l font-bold focus:border-b-0 focus:outline-none focus:ring-2 focus:ring-gray-400">Read More</button></a>
+          </div>
+      </div>
+      <div class="lg:flex items-center justify-center mt-4 lg:mt-32">
+          <div class="lg:w-1/2 h-1/3">
+              <img src="img/img4.jpeg" class="w-full h-full" alt="An elegant bathroom with a bathtub,basin and other fancy items" role="img" />
+          </div>
+          <div class="mt-4 lg:mt-0 py-12 px-8 lg:px-12 bg-gray-700 lg:w-2/5 lg:-ml-12 text-white f-f-l">
+              <h2 class="lg:text-3xl text-2xl font-normal leading-9 pb-6 f-f-d-s">Multi-Generational Wealth Management</h2>
+              <div class="pb-6 leading-6 f-f-l text-base lg:text-xl leading-9">Multi-generational wealth management helps ensure that a family’s wealth and legacy are managed suitably and passed from one generation to the next, providing a healthy financial picture for the younger generations.</div>
+              <a href="service4.html"><button class="border-b p-1 border-white lg:text-2xl text-base leading-6 f-f-l font-bold focus:border-b-0 focus:outline-none focus:ring-2 focus:ring-gray-400">Read More</button></a>
+          </div>
+      </div>
+      <div class="lg:flex items-center justify-center mt-4 lg:mt-32">
+          <div class="lg:w-1/2 h-1/3">
+              <img src="img/img5.jpeg" class="w-full h-full" alt="An elegant bathroom with a bathtub,basin and other fancy items" role="img" />
+          </div>
+          <div class="mt-4 lg:mt-0 py-12 px-8 lg:px-12 bg-gray-700 lg:w-2/5 lg:-ml-12 text-white f-f-l">
+              <h2 class="lg:text-3xl text-2xl font-normal leading-9 pb-6 f-f-d-s">Treasury Management</h2>
+              <div class="pb-6 leading-6 f-f-l text-base lg:text-xl leading-9">Cash flow management for organisations including SMEs and startups. Generating maximum returns from surplus funds available in organisations without affecting immediate requirements.</div>
+              <a href="service5.html"><button class="border-b p-1 border-white lg:text-2xl text-base leading-6 f-f-l font-bold focus:border-b-0 focus:outline-none focus:ring-2 focus:ring-gray-400">Read More</button></a>
+          </div>
+      </div>
+      <div class="lg:flex items-center justify-center mt-4 lg:mt-32">
+          <div class="lg:w-1/2 h-1/3">
+              <img src="img/img6.jpeg" class="w-full h-full" alt="An elegant bathroom with a bathtub,basin and other fancy items" role="img" />
+          </div>
+          <div class="mt-4 lg:mt-0 py-12 px-8 lg:px-12 bg-gray-700 lg:w-2/5 lg:-ml-12 text-white f-f-l">
+              <h2 class="lg:text-3xl text-2xl font-normal leading-9 pb-6 f-f-d-s">Philanthropy and Charitable Planning</h2>
+              <div class="pb-6 leading-6 f-f-l text-base lg:text-xl leading-9">Tie ups with various NGo's and organisations in the social sector to further the cause of charity for our clients.</div>
+              <a href="service6.html"><button class="border-b p-1 border-white lg:text-2xl text-base leading-6 f-f-l font-bold focus:border-b-0 focus:outline-none focus:ring-2 focus:ring-gray-400">Read More</button></a>
+          </div>
+      </div>
 </div>
+    
 
 <!--Footer Section-->
 
