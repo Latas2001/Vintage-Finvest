@@ -41,3 +41,8 @@ html, body {
  margin-bottom:1em;
  line-height:2em
 }
+
+.text-blue-950 {
+  --tw-text-opacity: 1;
+  color: rgba(9,49,74,var(--tw-text-opacity));
+}
