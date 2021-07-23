@@ -5,10 +5,10 @@
 .bg-brandcolor{
     background-color: rgb(9,49,74); 
   }
-.text-blue-950 {
-    --tw-text-opacity: 1;
-    color: rgba(9,49,74,var(--tw-text-opacity));
-}
+  
+.bg-blue-950{
+    background-color: rgb(9,49,74); 
+  }
 .change-my-color {
     fill: rgb(25, 83, 207);
   }
@@ -42,7 +42,17 @@ html, body {
  line-height:2em
 }
 
-.text-blue-950 {
+.text-brandcolor {
   --tw-text-opacity: 1;
   color: rgba(9,49,74,var(--tw-text-opacity));
 }
+
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  border: rgb(9, 49, 74) solid 1px;
+  background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: rgb(9, 49, 74);
+}
+

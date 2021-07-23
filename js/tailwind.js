@@ -59,7 +59,6 @@ $(window).scroll(function() {
 });
 
 /*Testimonials*/
-
 var cont=0;
 function loopSlider(){
   var xx= setInterval(function(){
@@ -68,8 +67,8 @@ function loopSlider(){
         case 0:{
             $("#slider-1").fadeOut(400);
             $("#slider-2").delay(400).fadeIn(400);
-            $("#sButton1").removeClass("bg-blue-800");
-            $("#sButton2").addClass("bg-blue-800");
+            $("#sButton1").removeClass("bg-brandcolor");
+            $("#sButton2").addClass("bg-brandcolor");
         cont=1;
         
         break;
@@ -79,8 +78,8 @@ function loopSlider(){
         
             $("#slider-2").fadeOut(400);
             $("#slider-1").delay(400).fadeIn(400);
-            $("#sButton2").removeClass("bg-blue-800");
-            $("#sButton1").addClass("bg-blue-800");
+            $("#sButton2").removeClass("bg-brandcolor");
+            $("#sButton1").addClass("bg-brandcolor");
            
         cont=0;
         
@@ -103,8 +102,8 @@ function sliderButton1(){
 
     $("#slider-2").fadeOut(400);
     $("#slider-1").delay(400).fadeIn(400);
-    $("#sButton2").removeClass("bg-blue-800");
-    $("#sButton1").addClass("bg-blue-800");
+    $("#sButton2").removeClass("bg-brandcolor");
+    $("#sButton1").addClass("bg-brandcolor");
     reinitLoop(4000);
     cont=0
     
@@ -113,8 +112,8 @@ function sliderButton1(){
     function sliderButton2(){
     $("#slider-1").fadeOut(400);
     $("#slider-2").delay(400).fadeIn(400);
-    $("#sButton1").removeClass("bg-blue-800");
-    $("#sButton2").addClass("bg-blue-800");
+    $("#sButton1").removeClass("bg-brandcolor");
+    $("#sButton2").addClass("bg-brandcolor");
     reinitLoop(4000);
     cont=1
     
@@ -122,8 +121,14 @@ function sliderButton1(){
 
     $(window).ready(function(){
         $("#slider-2").hide();
-        $("#sButton1").addClass("bg-blue-800");
+        $("#sButton1").addClass("bg-brandcolor");
         
 
         loopSlider();
-     });
+     
+        
+    
+    
+    
+    
+    });
