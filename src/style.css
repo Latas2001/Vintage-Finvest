@@ -5,6 +5,9 @@
 .bg-brandcolor{
     background-color: rgb(9,49,74); 
   }
+.hover\:bg-brandcolorhover:hover{
+    background-color: #11425e; 
+  }
   
 .bg-blue-950{
     background-color: rgb(9,49,74); 
@@ -55,4 +58,6 @@ html, body {
 .swiper-pagination > .swiper-pagination-bullet-active {
   background-color: rgb(9, 49, 74);
 }
+
+
 
