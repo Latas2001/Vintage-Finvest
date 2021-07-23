@@ -50,6 +50,11 @@ html, body {
   color: rgba(9,49,74,var(--tw-text-opacity));
 }
 
+.hover\:text-brandcolorhover:hover{
+  --tw-text-opacity: 1;
+  color: rgba(5,34,49,var(--tw-text-opacity));
+}
+
 .swiper-pagination > .swiper-pagination-bullet {
   opacity: 1;
   border: rgb(9, 49, 74) solid 1px;
