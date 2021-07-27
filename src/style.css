@@ -12,9 +12,7 @@
 .bg-blue-950{
     background-color: rgb(9,49,74); 
   }
-.change-my-color {
-    fill: rgb(25, 83, 207);
-  }
+
   
 .counter-value:after {
     content: "+";
@@ -23,13 +21,6 @@
 color : #173b52;
 }
 
-
-html, body {
-  width: 100%;
-  margin: 0; 
-  padding: 0; 
-  
-}
 /* Carousel Container*/
 .swiper-container {
   width: 100%!important;
